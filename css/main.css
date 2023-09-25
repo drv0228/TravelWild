@@ -9,6 +9,9 @@
 .main-page__welcome > img {
     width: 30%;
 }
+.main-page__welcome--container {
+    margin: 3vw 0vw;
+}
 .main-page__welcome--container > p {
     margin: 0vw;
 }
@@ -30,7 +33,7 @@ button {
 
 .main-page__recomendations {
     background-color: #FFF;
-    padding: 2vw 5vw;
+    padding: 0vw 5vw;
     margin: 0vw;
     position: relative;
 }
@@ -40,12 +43,6 @@ button {
     margin: 0vw 0vw 10vw 0vw;
     position: relative;
 }
-/* .main-page__cards > img {
-    width: 18%;
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 2vw 1vw;
-} */
 .main-page__cards {
     display: flex;
     justify-content: center;
@@ -56,43 +53,23 @@ button {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 0vw 0vw;
+    margin: 0vw;
 }
 .main-page__card {
     padding: 0vw 4vw 0vw 12vw;
     position: relative;
     top:-60px;
     left: 5px;
-}
-/* 
-.main-page__card > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin: 0vw;
-} */
-
-/* 
-.main-page__cards--destinations {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0vw 0vw 0vw 20vw;
-} */
-/* .main-page__card > h2 {
-    /* text-align: left; */
-    /* margin-right: 0vw; */
-    /* margin-left: 1vw; */
-
+}
 
 .main-page__card h2 {
   color:#FFF;
   font-weight: 200;
-  font-size: medium;
+  font-size: large;
   position: relative;
-  top: -3vw;
-  left: 9vw;
+  top: -4vw;
+  left: 8vw;
 }
 
 .footer__container {
