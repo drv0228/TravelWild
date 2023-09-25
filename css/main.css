@@ -34,27 +34,29 @@ button {
     margin: 0vw;
     position: relative;
 }
-.main-page__cards > img {
+
+.main-page__recomendations > h2 {
+    padding: 2vw 0vw;
+    margin: 0vw 0vw 10vw 0vw;
+    position: relative;
+}
+/* .main-page__cards > img {
     width: 18%;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     margin: 2vw 1vw;
-}
+} */
 .main-page__cards {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0vw;
 }
-
-.main-page__cards--destinations {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0vw;
-}
-.main-page__cards--destinations > h2 {
-    text-align: right;
+.image-destination {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 0vw 0vw;
 }
 .main-page__card {
     padding: 0vw 4vw 0vw 12vw;
@@ -62,10 +64,35 @@ button {
     top:-60px;
     left: 5px;
 }
-.main-page__card > h2 {
+/* 
+.main-page__card > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0vw;
+} */
+
+/* 
+.main-page__cards--destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw 0vw 0vw 20vw;
+} */
+/* .main-page__card > h2 {
+    /* text-align: left; */
+    /* margin-right: 0vw; */
+    /* margin-left: 1vw; */
+
+
+.main-page__card h2 {
   color:#FFF;
   font-weight: 200;
   font-size: medium;
+  position: relative;
+  top: -3vw;
+  left: 9vw;
 }
 
 .footer__container {
