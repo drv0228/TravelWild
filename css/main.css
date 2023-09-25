@@ -1,0 +1,74 @@
+.main-page__welcome {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+    background-color: #FEFAF5;
+    text-align: left;
+}
+
+.main-page__welcome > img {
+    width: 30%;
+}
+.main-page__welcome--container > p {
+    margin: 0vw;
+}
+button {
+    background-color: #DB7A4E;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    padding: 0.3vw 2vw;
+    margin-top: 1.5vw;
+    color: #FFF;
+    font-weight: 100;
+    font-size: xx-small;
+}
+
+.main-page__welcome--frase {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.main-page__recomendations {
+    background-color: #FFF;
+    padding: 2vw 5vw;
+    margin: 0vw;
+    position: relative;
+}
+.main-page__cards > img {
+    width: 18%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 2vw 1vw;
+}
+.main-page__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw;
+}
+
+.main-page__cards--destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw;
+}
+.main-page__cards--destinations > h2 {
+    text-align: right;
+}
+.main-page__card {
+    padding: 0vw 4vw 0vw 12vw;
+    position: relative;
+    top:-60px;
+    left: 5px;
+}
+.main-page__card > h2 {
+  color:#FFF;
+  font-weight: 200;
+  font-size: medium;
+}
+
+.footer__container {
+  margin-left: 4vw;
+}
+
